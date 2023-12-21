@@ -1,0 +1,21 @@
+a = input("Hello! How are you?\n")
+if ("fine" in a):
+    print("I am happy to here that")
+elif("sad" in a):
+    print("Sorry to hear that. Hope tomorrow you will be fine")
+else:
+    print("Sorry! I can't understand")
+text=""
+while("bye" not in text):
+    text = input("How can I help you? Enter Bye to exit the program\n")
+    if("bored" in text):
+        print("Oh! You can listen to songs or have a talk with your family")
+    elif("hungry" in text):
+        print("Then eat something that you like")
+    elif("tired" in text):
+        print("Keep yourself calm, don't be stressed. I think you need to take rest")
+    elif("bye" in text):
+        print("Byee")
+        break
+    else:
+        print("sorry! I can't understand")
